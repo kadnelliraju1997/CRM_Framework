@@ -16,4 +16,16 @@ public class OrgTest {
 		System.out.println("execute modifyOrgTest");
 		
 	}
+	@Test(groups = "smoke")
+	public void createContactTest()
+	{
+		System.out.println("execute createContactTest");
+		
+	}
+	@Test(groups = "smoke")
+	public void createOrgwithContactTest()
+	{
+		System.out.println("execute createOrgTest");
+		
+	}
 }
