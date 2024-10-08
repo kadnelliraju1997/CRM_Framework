@@ -10,14 +10,19 @@ public class OrgTest {
 	@Test(groups = "smoke")
 	public void createOrgTest() throws Throwable
 	{
-		String url = Flib.readDataFromPropertyFile("url");
-		String browser = Flib.readDataFromPropertyFile("browser");
-		String username = Flib.readDataFromPropertyFile("username");
-		String password = Flib.readDataFromPropertyFile("password");
-		System.out.println(url);
-		System.out.println(browser);
-		System.out.println(username);
-		System.out.println(password);
+		
+		
+		String URL = System.getProperty("url");
+		String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password");
+		String BROWSER = System.getProperty("browser");
+
+		System.out.println(URL);
+		System.out.println(USERNAME);
+		System.out.println(PASSWORD);
+		System.out.println(BROWSER);
+		
+		
 		System.out.println("execute createOrgTest");
 		
 	}
