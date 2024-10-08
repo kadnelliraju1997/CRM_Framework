@@ -43,7 +43,7 @@
 </dependencies>
 <profiles>
 <profile>
-	<id></id>
+	<id>ST</id>
 	<build>
 		<pluginManagement>
 			<plugins>
